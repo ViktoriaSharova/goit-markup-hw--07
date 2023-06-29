@@ -1793,6 +1793,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-left: 156px;
     margin-right: 76px;
     padding: 24px 0;
 }
@@ -1825,7 +1826,6 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 
 .menu-list {
     display: flex;
-    margin-left: 76px;
     gap: 40px;
 }
 
@@ -1887,6 +1887,13 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+}
+
+.secondary-text {
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .secondary-item-list {
